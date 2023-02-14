@@ -1,0 +1,56 @@
+	#include <iostream>
+	using namespace std;
+	int sum(int a,int b){
+	int result;
+	result = a + b;
+	return (result);
+	}
+	
+
+	int difference(int a,int b){
+	int mresult;
+	mresult = a - b;
+	return (mresult);
+	}
+	
+
+	int product(int a,int b){
+	int presult;
+	presult = a * b;
+	return (presult);
+	}
+	
+
+	int divide(int a,int b){
+	float dresult;
+	dresult = a / b;
+	return (dresult);
+	}
+	
+
+	int main() {
+	    int a,b,result,mresult,presult,dresult;
+	    cout<<"write a number: ";
+	    cin>>a;
+	    cout<<"another one: ";
+	    cin>>b;
+	    
+	    result = sum(a,b);
+	    cout<<"Your sum is: "<<result<<endl;
+	    
+	    mresult =difference(a,b);
+	    cout<<"Your differ is: "<<mresult<<endl;
+	    
+	    presult =product(a,b);
+	    cout<<"Your product is: "<<presult<<endl;
+	    
+	    dresult =divide(a,b);
+	    cout<<"Your divide is: "<<dresult<<endl;
+	
+
+	
+
+	
+
+	    return 0;
+}
